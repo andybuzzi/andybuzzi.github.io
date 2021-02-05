@@ -109,14 +109,16 @@ nav ul li a:hover {
 /* About Me Section */
 
 .about-me {
-  padding: 15px;
-  margin: 10px;
+  background-color: #ffe4e3;
+  padding: 20px;
+  margin: 15px;
   line-height: 1.7;
 }
 
 /* Work Section*/
 
 .work-section {
+  background-color: #ffe4e3;
   padding: 15px;
   margin: 10px;
   line-height: 1.7;
@@ -125,14 +127,16 @@ nav ul li a:hover {
 /* Contact Me Section */
 
 .contact-me {
+  background-color: #ffe4e3;
   padding: 15px;
   margin: 10px;
   line-height: 1.7;
 }
 
-/* About Me Section */
+/* Resume Section */
 
 .resume {
+  background-color: #ffe4e3;
   padding: 15px;
   margin: 10px;
   line-height: 1.7;
