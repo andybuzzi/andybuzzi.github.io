@@ -8,6 +8,29 @@
 /* Body */
 body {
   font-family: "Montserrat", sans-serif;
+  background: #bfa5a5;
+}
+
+/* Utility Classes */
+
+.section-heading {
+  font-size: 25px;
+  color: #49111c;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.primary-border {
+  border-bottom: 3px solid #8b122b;
+  margin: 0 auto 35px auto;
+  width: 20%;
+}
+.secondary-border {
+  border-bottom: 3px solid #a86365;
+  margin: 0 auto 35px auto;
+  width: 20%;
 }
 
 /* Header */
@@ -73,7 +96,7 @@ nav ul li a:hover {
 .main-heading h1 {
   font-size: 80px;
   font-family: "Open Sans", sans-serif;
-  color: #d60000;
+  color: #8b122b;
 }
 
 .portfolio-picture {
@@ -81,4 +104,36 @@ nav ul li a:hover {
   background: url("../images/hero-img.jpg");
   width: 600px;
   height: 450px;
+}
+
+/* About Me Section */
+
+.about-me {
+  padding: 15px;
+  margin: 10px;
+  line-height: 1.7;
+}
+
+/* Work Section*/
+
+.work-section {
+  padding: 15px;
+  margin: 10px;
+  line-height: 1.7;
+}
+
+/* Contact Me Section */
+
+.contact-me {
+  padding: 15px;
+  margin: 10px;
+  line-height: 1.7;
+}
+
+/* About Me Section */
+
+.resume {
+  padding: 15px;
+  margin: 10px;
+  line-height: 1.7;
 }
