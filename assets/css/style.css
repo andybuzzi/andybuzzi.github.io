@@ -130,7 +130,7 @@ nav ul li a:hover {
   background: rgba(156, 172, 191, 70%);
   width: 900px;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 15px;
   border: 2px solid #032e42;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   outline: none;
@@ -175,6 +175,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
 }
 
 .flex-item img {
