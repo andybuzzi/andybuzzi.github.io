@@ -7,7 +7,7 @@
 
 /* Body */
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: #003152;
   font-size: 18px;
 }
@@ -16,7 +16,7 @@ body {
 
 .section-heading {
   font-size: 25px;
-  color: #e6f4f1;
+  color: #8b122b;
   font-weight: bold;
   text-align: center;
   padding: 10px;
@@ -118,13 +118,14 @@ nav ul li a:hover {
 .about-me {
   background-color: #2b6684;
   padding: 20px;
+  margin: 15px 0;
   line-height: 1.7;
 }
 
 .facts {
   display: flex;
   margin: 20px auto;
-  background: rgba(156, 172, 191, 30%);
+  background: rgba(156, 172, 191, 70%);
   width: 900px;
   align-items: center;
   border-radius: 20px;
@@ -153,21 +154,22 @@ nav ul li a:hover {
 /* Work Section*/
 
 .work-section {
-  background-color: #2b6684;
+  background-color: #fcfcfc;
   line-height: 1.8;
-  padding-top: 15px;
-  margin-top: 15px;
+  padding: 20px 0;
+  margin: 15px 0;
 }
 
 .flex-container {
   width: 100%;
-  margin: 0 auto;
+  margin: 10px auto;
   display: flex;
-  justify-content: stretch;
+  justify-content: space-around;
 }
 
 .flex-item {
   padding: 20px 0;
+  margin: 0 30px;
   display: flex;
   flex-direction: column;
 }
