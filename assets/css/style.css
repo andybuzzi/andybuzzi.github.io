@@ -124,17 +124,30 @@ nav ul li a:hover {
 .facts {
   display: flex;
   margin: 20px auto;
-  background: #9cacbf;
+  background: rgba(156, 172, 191, 30%);
   width: 900px;
   align-items: center;
+  border-radius: 20px;
+  border: 2px solid #032e42;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  outline: none;
 }
+
 .about-me p {
-  margin: 0 45px;
+  margin: 0 40px;
   text-align: center;
 }
 
 .about-me ul {
-  margin: 15px 45px;
+  margin: 15px 10px;
+}
+
+.about-me ul li {
+  list-style-type: none;
+}
+.about-me ul li::before {
+  content: "➡ ";
+  color: #8b122b;
 }
 
 /* Work Section*/
