@@ -5,9 +5,13 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
 /* Body */
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
   background: #bfa5a5;
 }
 
@@ -109,35 +113,54 @@ nav ul li a:hover {
 /* About Me Section */
 
 .about-me {
-  background-color: #ffe4e3;
+  background-color: #588bae;
   padding: 20px;
   margin: 15px;
   line-height: 1.7;
+  color: #fff;
+}
+
+.about-me .facts {
+  display: flex;
+  margin: 20px auto;
+  background: #95c8d8;
+  width: 900px;
+  align-items: center;
+}
+.about-me p {
+  margin: 0 45px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.about-me ul {
+  margin: 15px 45px;
+  font-size: 20px;
 }
 
 /* Work Section*/
 
 .work-section {
-  background-color: #ffe4e3;
+  background-color: #588bae;
   padding: 15px;
-  margin: 10px;
-  line-height: 1.7;
+  margin: 15px;
+  line-height: 1.8;
 }
 
 /* Contact Me Section */
 
 .contact-me {
-  background-color: #ffe4e3;
+  background-color: #588bae;
   padding: 15px;
-  margin: 10px;
+  margin: 15px;
   line-height: 1.7;
 }
 
 /* Resume Section */
 
 .resume {
-  background-color: #ffe4e3;
+  background-color: #588bae;
   padding: 15px;
-  margin: 10px;
+  margin: 15px;
   line-height: 1.7;
 }
