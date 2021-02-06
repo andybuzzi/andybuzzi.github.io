@@ -155,30 +155,29 @@ nav ul li a:hover {
 .work-section {
   background-color: #2b6684;
   line-height: 1.8;
-  padding: 15px;
-  margin: 15px 0;
+  padding-top: 15px;
+  margin-top: 15px;
 }
 
 .flex-container {
   width: 100%;
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: stretch;
 }
 
 .flex-item {
   padding: 20px 0;
   display: flex;
   flex-direction: column;
-  width: 30%;
-  border: 2px solid #111d5a;
-  margin-bottom: 25px;
 }
 
 .flex-item img {
   align-self: center;
   margin: 15px;
+  border: 2px solid #003152;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
 .flex-item p {
