@@ -114,7 +114,6 @@ nav ul li a:hover {
 .about-me {
   background-color: #2b6684;
   padding: 20px;
-  margin: 15px;
   line-height: 1.7;
 }
 
@@ -142,7 +141,7 @@ nav ul li a:hover {
   background-color: #2b6684;
   line-height: 1.8;
   padding: 15px;
-  margin: 15px;
+  margin: 15px 0;
 }
 
 .flex-container {
@@ -177,7 +176,7 @@ nav ul li a:hover {
 .contact-me {
   background-color: #2b6684;
   padding: 15px;
-  margin: 15px;
+  margin: 15px 0;
   line-height: 1.7;
 }
 
@@ -212,7 +211,6 @@ nav ul li a:hover {
 .resume {
   background-color: #2b6684;
   padding: 15px;
-  margin: 15px;
   line-height: 1.7;
 }
 
