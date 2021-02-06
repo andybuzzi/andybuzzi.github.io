@@ -212,6 +212,7 @@ nav ul li a:hover {
 .contact-me a {
   text-decoration: none;
   color: #003152;
+  font-weight: 500;
 }
 
 .contact-me section {
@@ -229,4 +230,6 @@ nav ul li a:hover {
 .resume p {
   padding: 0 15px 15px 15px;
   text-align: center;
+  color: #fff;
+  font-size: 20px;
 }
