@@ -183,6 +183,24 @@ nav ul li a:hover {
   line-height: 1.7;
 }
 
+.contact-me ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-me ul li {
+  list-style: none;
+}
+
+.contact-me i {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-me section {
+  font-size: 16px;
+}
+
 /* Resume Section */
 
 .resume {
