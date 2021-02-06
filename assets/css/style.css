@@ -185,20 +185,28 @@ nav ul li a:hover {
 
 .contact-me ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .contact-me ul li {
   list-style: none;
+  margin: 10px 0;
 }
 
 .contact-me i {
   display: flex;
   justify-content: center;
+  color: #a86365;
+}
+
+.contact-me a {
+  text-decoration: none;
+  color: #003152;
 }
 
 .contact-me section {
-  font-size: 16px;
+  font-size: 18px;
+  margin: 0 55px;
 }
 
 /* Resume Section */
