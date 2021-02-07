@@ -8,28 +8,29 @@
 /* Body */
 body {
   font-family: "Open Sans", sans-serif;
-  background: #c3e4ed;
+  background: #f5f5f5;
   font-size: 18px;
+  color: #f5f5f5;
 }
 
 /* Utility Classes */
 
 .section-heading {
   font-size: 25px;
-  color: #8b122b;
+  color: #f5f5f5;
   font-weight: bold;
   text-align: center;
   padding: 10px;
 }
 
 .primary-border {
-  border-bottom: 3px solid #032e42;
+  border-bottom: 3px solid #8b122b;
   margin: 0 auto 35px auto;
   width: 20%;
 }
 
 .secondary-border {
-  border-bottom: 3px solid #032e42;
+  border-bottom: 3px solid #8b122b;
   margin: 0 auto 15px auto;
 }
 
@@ -111,7 +112,7 @@ nav ul li a:hover {
 /* About Me Section */
 
 .about-me {
-  background-color: #2b6684;
+  background-color: #000000;
   padding: 20px;
   margin: 15px 0;
   line-height: 1.7;
@@ -146,7 +147,7 @@ nav ul li a:hover {
 /* Work Section*/
 
 .work-section {
-  background-color: #fcfcfc;
+  background-color: #000000;
   line-height: 1.8;
   padding: 20px 0;
 }
@@ -185,7 +186,7 @@ nav ul li a:hover {
 /* Contact Me Section */
 
 .contact-me {
-  background-color: #2b6684;
+  background-color: #000000;
   padding: 15px;
   margin: 15px 0;
 }
@@ -212,13 +213,13 @@ nav ul li a:hover {
 
 .contact-me a {
   text-decoration: none;
-  color: #003152;
+  color: #f5f5f5;
 }
 
 /* Resume Section */
 
 .resume {
-  background-color: #2b6684;
+  background-color: #000000;
   padding: 15px;
 }
 
