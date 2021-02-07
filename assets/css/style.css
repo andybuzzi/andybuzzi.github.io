@@ -228,3 +228,128 @@ nav ul li a:hover {
   color: #fff;
   font-size: 20px;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width: 1100px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
+
+  .flex-item {
+    margin: 20px 35px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .main-heading p {
+    font-size: 35px;
+  }
+
+  .main-heading h1 {
+    font-size: 50px;
+  }
+
+  .portfolio-picture {
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+  }
+
+  .facts {
+    width: 700px;
+    padding: 10px 0;
+  }
+
+  .section-heading {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .main-heading p {
+    font-size: 20px;
+  }
+
+  .main-heading h1 {
+    font-size: 35px;
+  }
+
+  .portfolio-picture {
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+  }
+
+  .facts {
+    width: 500px;
+    padding: 10px 0;
+  }
+
+  .section-heading {
+    width: 40%;
+  }
+}
+/* /* MEDIA QUERY FOR TABLETS AND SMALLER *
+
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+  }
+
+  .step h3 {
+    flex: 1 100%;
+    text-align: center;
+  }
+
+  .step-info {
+    flex: 2 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  .step-img {
+    flex: 0 32%;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .step-text {
+    flex: 100%;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER *
+@media screen and (max-width: 575px) {
+  .hero-form button {
+    width: 100%;
+  }
+
+  .section-title {
+    width: 95%;
+  }
+
+  .intro p {
+    width: 100%;
+  }
+
+  .trainer {
+    flex: 0 100%;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-info > * {
+    flex: 0 100%;
+  }
+
+  .contact-form {
+    order: 3;
+  }
+} */
