@@ -28,6 +28,11 @@ body {
   width: 20%;
 }
 
+.secondary-border {
+  border-bottom: 3px solid #032e42;
+  margin: 0 auto 15px auto;
+}
+
 .bg-light {
   background: #6689a2;
 }
@@ -155,7 +160,7 @@ nav ul li a:hover {
   margin: 0 20px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 10px rgba(3, 0, 86, 0.8);
   border-radius: 15px;
 }
 
@@ -165,6 +170,12 @@ nav ul li a:hover {
   border: 2px solid #003152;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.flex-item h3 {
+  text-align: center;
+  padding: 10px;
+  color: #00001a;
 }
 
 .flex-item p {
