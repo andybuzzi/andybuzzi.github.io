@@ -93,19 +93,19 @@ nav ul li a:hover {
   background: var(--black);
 }
 
-.main-heading {
-  margin: 80px 0 20px 30px;
+.hero-heading {
+  margin: 35px 0 20px 30px;
 }
 
-.main-heading p,
-.main-heading h1 {
+.hero-heading p,
+.hero-heading h1 {
   color: var(--white);
   font-size: 35px;
   padding: 5px 0 5px 30px;
   font-weight: bold;
 }
 
-.main-heading h1 {
+.hero-heading h1 {
   font-size: 70px;
   color: var(--red);
   text-shadow: 2px 2px 5px #414a4c;
@@ -240,10 +240,11 @@ nav ul li a:hover {
   font-size: 20px;
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+/* MEDIA QUERY MAX-WIDTH 1100px*/
 
 @media screen and (max-width: 1100px) {
-  .main-heading h1 {
+  /* Media Query: Hero/Jumbotron */
+  .hero-heading h1 {
     font-size: 50px;
   }
 
@@ -257,29 +258,34 @@ nav ul li a:hover {
     height: 300px;
   }
 
+  /* Media Query: Work Section */
   .flex-item {
     margin: 20px 35px;
   }
 }
 
+/* MEDIA QUERY MAX-WIDTH 950px*/
+
 @media screen and (max-width: 950px) {
-  .main-heading {
-    margin: 20px;
+  body {
+    font-size: 16px;
   }
 
-  .main-heading h1 {
+  /* Media Query: Hero/Jumbotron */
+  .hero-heading p {
+    font-size: 25px;
+  }
+
+  .hero-heading h1 {
     font-size: 45px;
   }
 
-  .main-heading p {
-    font-size: 25px;
-  }
   .portfolio-picture {
-    background-size: cover;
     width: 250px;
     height: auto;
   }
 
+  /* Media Query: About Me */
   .facts {
     width: 700px;
     padding: 10px 0;
@@ -287,49 +293,41 @@ nav ul li a:hover {
 
   .section-heading {
     width: 30%;
+    font-size: 18px;
   }
 }
 
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 16px;
-  }
+/* MEDIA QUERY MAX-WIDTH 768px*/
 
+@media screen and (max-width: 768px) {
+  /* Media Query: Navigation bar / Header */
   nav ul li a {
     padding: 10px;
   }
-  .main-heading p {
+
+  /* Media Query: Hero/ Jumbotron */
+  .hero-heading p {
     font-size: 18px;
   }
 
-  .main-heading h1 {
+  .hero-heading h1 {
     font-size: 30px;
   }
 
   .portfolio-picture {
-    background-size: cover;
-    width: 250px;
     height: 250px;
   }
 
+  /* Media Query: About Me */
   .facts {
     width: 500px;
-    padding: 10px 0;
-  }
-
-  .section-heading {
-    width: 40%;
   }
 }
 
-@media screen and (max-width: 575px) {
-  /* Utility Classes */
-  .section-heading {
-    width: 40%;
-    font-size: 18px;
-  }
+/* MEDIA QUERY MAX-WIDTH 575px*/
 
-  /* Navigation */
+@media screen and (max-width: 575px) {
+  /* Media Query: Navigation bar / Header */
   nav ul li a {
     padding: 5px;
     text-align: center;
@@ -340,37 +338,32 @@ nav ul li a:hover {
     width: 60px;
   }
 
-  /* Hero/ Jumbotron */
-  .main-heading p {
+  /* Media Query: Hero/ Jumbotron */
+  .hero-heading p {
     font-size: 15px;
   }
 
-  .main-heading h1 {
+  .hero-heading h1 {
     font-size: 20px;
   }
 
   .portfolio-picture {
-    background-size: cover;
+    /* background-size: cover; */
     width: 200px;
     height: 200px;
   }
 
-  /* About Me Section */
+  /* Media Query: About Me Section */
   .facts {
     width: 100%;
     padding: 10px 0;
-  }
-
-  .section-heading {
-    width: 40%;
-    font-size: 18px;
   }
 
   .flex-item img {
     width: 50%;
   }
 
-  /* Contact me Section */
+  /* Media Query: Contact me Section */
   .contact-me section {
     margin: 0 25px;
   }
