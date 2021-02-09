@@ -310,16 +310,30 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 575px) {
-  nav ul li a {
-    padding: 10px;
-    text-align: center;
-  }
-  .main-heading p {
+  /* Utility Classes */
+  .section-heading {
+    width: 40%;
     font-size: 18px;
   }
 
+  /* Navigation */
+  nav ul li a {
+    padding: 5px;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  nav ul img {
+    width: 60px;
+  }
+
+  /* Hero/ Jumbotron */
+  .main-heading p {
+    font-size: 15px;
+  }
+
   .main-heading h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .portfolio-picture {
@@ -328,12 +342,27 @@ nav ul li a:hover {
     height: 200px;
   }
 
+  /* About Me Section */
   .facts {
-    width: 400px;
+    width: 100%;
     padding: 10px 0;
   }
 
   .section-heading {
     width: 40%;
+    font-size: 18px;
+  }
+
+  .flex-item img {
+    width: 50%;
+  }
+
+  /* Contact me Section */
+  .contact-me section {
+    margin: 0 25px;
+  }
+
+  .contact-me ul li {
+    text-align: center;
   }
 }
