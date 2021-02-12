@@ -8,38 +8,34 @@
 /* Variables for colors */
 :root {
   --white: #f5f5f5;
-  --red: #8b122b;
-  --black: #000000;
-  --dark-blue: #003152;
+  --light-blue: #bcd9e0;
+  --medium-blue: #4da8da;
+  --dark-blue: #007cc7;
+  --darkest-blue: #203647;
 }
 
 /* Body */
 body {
   font-family: "Open Sans", sans-serif;
-  background: var(--white);
-  font-size: 18px;
-  color: var(--white);
+  background: #148d8d;
+  font-size: 16px;
+  color: var(--black);
 }
 
 /* Utility Classes */
-
 .section-heading {
-  font-size: 25px;
-  color: var(--white);
+  display: inline;
+  color: #148d8d;
   font-weight: bold;
   text-align: center;
-  padding: 10px;
+  padding: 1px;
 }
 
-.primary-border {
-  border-bottom: 3px solid var(--red);
-  margin: 0 auto 35px auto;
-  width: 20%;
-}
-
-.secondary-border {
-  border-bottom: 3px solid var(--red);
-  margin: 0 auto 15px auto;
+.section-heading h2 {
+  background: var(--darkest-blue);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 6px;
 }
 
 /* .bg-light {
@@ -55,7 +51,7 @@ body {
 header {
   display: flex;
   justify-content: center;
-  background: var(--black);
+  background: rgba(0, 0, 0, 85%);
 }
 
 header nav {
@@ -75,9 +71,10 @@ nav ul li {
 nav ul li a {
   align-self: center;
   text-decoration: none;
-  color: #fff;
+  color: #148d8d;
   padding: 20px;
   font-weight: 600;
+  font-size: 20px;
 }
 
 nav ul li a:hover {
@@ -91,8 +88,8 @@ nav ul li a:hover {
 .hero {
   display: flex;
   justify-content: space-evenly;
-  /* position: relative; */
-  /* background: var(--black); */
+  height: 400px;
+  background: var(--white);
 }
 
 .hero-heading {
@@ -101,7 +98,7 @@ nav ul li a:hover {
 
 .hero-heading p,
 .hero-heading h1 {
-  color: var(--black);
+  color: #148d8d;
   font-size: 35px;
   padding: 5px 0 5px 30px;
   font-weight: bold;
@@ -110,8 +107,8 @@ nav ul li a:hover {
 
 .hero-heading h1 {
   font-size: 70px;
-  color: var(--red);
-  text-shadow: 2px 2px 5px #414a4c;
+  color: #062f2f;
+  text-shadow: 2px 2px 5px var(--medium-blue);
 }
 
 .portfolio-picture {
@@ -130,9 +127,14 @@ nav ul li a:hover {
 /* About Me Section */
 
 .about-me {
-  background-color: var(--black);
-  padding: 20px;
+  background: linear-gradient(
+      -70deg,
+      var(--dark-blue) 30%,
+      rgba(0, 0, 0, 0) 30%
+    ),
+    #cafafe;
   line-height: 1.7;
+  padding: 75px;
 }
 
 .about-me p {
@@ -154,10 +156,11 @@ nav ul li a:hover {
 
 .facts {
   margin: 20px auto;
-  background: rgba(156, 172, 191, 70%);
+  /* background: rgba(0, 124, 199, 60%); */
+  background: #148d8d;
   width: 900px;
   border-radius: 15px;
-  border: 2px solid var(--dark-blue);
+  /* border: 2px solid var(--dark-blue); */
   box-shadow: 0 0 10px rgba(3, 0, 86, 0.8);
   outline: none;
   padding: 10px;
@@ -166,9 +169,20 @@ nav ul li a:hover {
 /* Work Section*/
 
 .work-section {
-  /* background-color: var(--black); */
-  line-height: 1.8;
-  padding: 20px 0;
+  background-color: var(--darkest-blue);
+  line-height: 1.5;
+}
+
+.item-1,
+.item-3,
+.item-5 {
+  background: var(--medium-blue);
+}
+
+.item-2,
+.item-4,
+.item-6 {
+  background: var(--dark-blue);
 }
 
 .flex-container-1,
@@ -177,52 +191,35 @@ nav ul li a:hover {
 }
 
 .work-item {
-  border: 1px solid #333;
+  flex: 1;
 }
 
-.item-1 {
-  flex: 3;
-}
-.item-2 {
-  flex: 2;
-}
-.item-3 {
-  flex: 3;
-}
-
-/* .work-item {
-  padding: 20px 0;
-  margin: 0 20px;
+.work-img {
   display: flex;
-  flex-direction: column;
-  box-shadow: 5px 5px 30px rgba(3, 0, 86, 0.8);
-  border-radius: 15px;
+  justify-content: center;
 }
 
-.work-item img {
-  align-self: center;
-  margin: 15px;
-  border: 2px solid var(--dark-blue);
-  border-radius: 20px;
-  box-shadow: 0 0 10px rgba(91, 144, 246, 0.6);
+.work-img img {
+  background-size: cover;
+  object-fit: contain;
+  width: 300px;
+  height: 200px;
 }
 
 .work-item h3 {
   text-align: center;
   padding: 10px;
-  color: var(--white);
+  color: #1a4a5a;
 }
 
 .work-item p {
-  padding: 0 25px 15px 25px;
-} */
+  padding: 10px 25px;
+}
 
-/* Contact Me Section */
-
+/* Contact me */
 .contact-me {
-  background-color: var(--black);
+  background-color: #148d8d;
   padding: 15px;
-  margin: 15px 0;
 }
 
 .contact-me section {
@@ -253,7 +250,7 @@ nav ul li a:hover {
 /* Resume Section */
 
 .resume {
-  background-color: var(--black);
+  background-color: var(--darkest-blue);
   padding: 15px;
 }
 
