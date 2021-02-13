@@ -10,25 +10,25 @@ Below are a few of the steps I've taken to create the portfolio, as well as scre
 
 - I have added the portfolio logo between the list items (line 30), so it places right in the middle of my navigation bar.
 
-  ![logo navbar](assets\images\screenshots\1_logo_nav.png)
+  ![logo navbar](assets/images/screenshots/1_logo_nav.png)
 
 - I have included a h2 tag, on line 85, written: "Meet you next developer:" with a class of "mediaquery", which was hidden on style.css and only shows for max-width 575px.
 
-  ![media query hidden](assets\images\screenshots\2_mediaquery_hidden.png)
+  ![media query hidden](assets/images/screenshots/2_mediaquery_hidden.png)
 
 ### CSS:
 
 - Variables for colors were added to make the code cleaner and more organized.
 
-  ![variable colors](assets\images\screenshots\3_variables_colors.png)
+  ![variable colors](assets/images/screenshots/3_variables_colors.png)
 
 - I have used flexbox for this project making it better to add media queries. Below are a few exemples.
 
-  ![logo navbar](assets\images\screenshots\4_flexbox.png)
+  ![logo navbar](assets/images/screenshots/4_flexbox.png)
 
 - Media queries have been added to the bottom of the css file. The breakpoints are: 950px, 768px and 575px.
 
-  ![media queries breakpoints](assets\images\screenshots\5_mediaqueries.png)
+  ![media queries breakpoints](assets/images/screenshots/5_mediaqueries.png)
 
 ## Built With
 
