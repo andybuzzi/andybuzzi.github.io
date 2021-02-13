@@ -8,24 +8,24 @@
 /* Variables for colors */
 :root {
   --white: #f5f5f5;
-  --light-blue: #bcd9e0;
+  --light-blue: #17d8d8;
   --medium-blue: #4da8da;
   --dark-blue: #007cc7;
   --darkest-blue: #203647;
+  --light-green: #148d8d;
 }
 
 /* Body */
 body {
   font-family: "Work Sans", sans-serif;
-  background: #148d8d;
+  background: var(--light-green);
   font-size: 17px;
-  color: var(--black);
 }
 
 /* Utility Classes */
 .section-heading {
   display: inline;
-  color: #148d8d;
+  color: var(--light-green);
   font-weight: bold;
   text-align: center;
   padding: 1px;
@@ -39,14 +39,6 @@ body {
   margin: 0 auto;
   padding: 6px;
 }
-
-/* .bg-light {
-  background: rgba(78, 120, 160, 0.4);
-}
-
-.bg-dark {
-  background: rgba(44, 81, 151, 0.3);
-} */
 
 /* Navigation bar / Header */
 
@@ -80,7 +72,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #17d8d8;
+  color: var(--light-blue);
   background-color: rgba(0, 49, 82, 30%);
   border-radius: 15px;
 }
@@ -101,7 +93,7 @@ nav ul li a:hover {
 .hero-heading p,
 .hero-heading h1 {
   font-family: "Montserrat", sans-serif;
-  color: #17d8d8;
+  color: var(--light-blue);
   font-size: 35px;
   padding: 5px 0 5px 30px;
   font-weight: bold;
@@ -111,7 +103,7 @@ nav ul li a:hover {
 .hero-heading h1 {
   /* font-family: "Cormorant Garamond", serif; */
   font-size: 85px;
-  text-shadow: 1px 1px 9px #17d8d8;
+  text-shadow: 1px 1px 9px var(--light-blue);
 }
 
 /* About Me Section */
@@ -145,22 +137,21 @@ nav ul li a:hover {
 
 .facts {
   margin: 20px auto;
-  /* background: rgba(0, 124, 199, 60%); */
-  background: #148d8d;
+  background: var(--light-green);
   width: 900px;
   border-radius: 15px;
-  /* border: 2px solid var(--dark-blue); */
   box-shadow: 0 0 10px rgba(3, 0, 86, 0.8);
   outline: none;
   padding: 10px;
 }
 
 .personal-picture {
-  background: linear-gradient(-55deg, #148d8d 50%, rgba(0, 0, 0, 0) 30%),
+  background: linear-gradient(
+      -55deg,
+      var(--light-green) 50%,
+      rgba(0, 0, 0, 0) 30%
+    ),
     var(--medium-blue);
-  /* display: flex; */
-  /* margin-top: 50px; */
-  /* position: relative; */
   align-content: flex-end;
 }
 
@@ -238,7 +229,7 @@ nav ul li a:hover {
 
 /* Contact me */
 .contact-me {
-  background-color: #148d8d;
+  background-color: var(--light-green);
   padding: 15px;
 }
 
