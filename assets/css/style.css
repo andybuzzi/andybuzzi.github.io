@@ -322,6 +322,8 @@ nav ul li a:hover {
   color: var(--white);
 }
 
+/* MEDIA QUERIES */
+
 /* MEDIA QUERY MAX-WIDTH 950px*/
 
 @media screen and (max-width: 950px) {

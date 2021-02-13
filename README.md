@@ -2,25 +2,33 @@
 
 ## Description
 
-Hi there! I'm Anderson and this is my personal portfolio, here you will find more information about me as well as samples of my work. I've used HTML and CSS for this first step. In the next weeks I'll be improving my codebase and adding some more languages to it. If you have any question or suggestion on any of my works, feel free to contact me!
+Hi there! I'm Anderson and this is my portfolio, here you will find more information about me as well as samples of my work. I've used HTML and CSS for this first step. In the next weeks, I'll be improving my codebase and adding some more languages programming to it. If you have any questions or suggestions on any of my works, feel free to contact me!
 
-This is a company webpage built using HTML and CSS. The main purpose of this project was to refactor the existing code in order to improve its database and make sure the code was running perfectly, making it more efficient and maintainable. Below are the main changes made to improve the code and functionability, as well as screenshot of some of the changes made for reference.
+Below are a few of the steps I've taken to create the portfolio, as well as screenshots of some of the changes made for reference.
 
-- Company's name has been added to the webpage title in the header;
+### HTML:
 
-  ![title added to HTML](assets/images/html-title.jpg)
+- I have added the portfolio logo between the list items (line 30), so it places right in the middle of my navigation bar.
 
-- Acessible alt attributes have been added to meet accessibility standards;
+  ![logo navbar](assets\images\screenshots\1_logo_nav.jpg)
 
-  ![img alt added](assets/images/img-alt.jpg)
+- I have included a h2 tag, on line 85, written: "Meet you next developer:" with a class of "mediaquery", which was hidden on style.css and only shows for max-width 575px.
 
-- HTML semantic elements have been corrected;
-- All links have been tested and fixed as needed;
-- CSS selectors and properties have been consolidated wherever possible;
-- CSS has been organized to follow semantic structure of the HTML elements;
-- Comments have been added to HTML and CSS to keep it organized and better to read.
+  ![media query hidden](assets\images\screenshots\2_mediaquery_hidden.jpg)
 
-  ![css comments added](assets/images/css-comments.jpg)
+### CSS:
+
+- Variables for colors were added to make the code cleaner and more organized.
+
+  ![variable colors](assets\images\screenshots\3_variables_colors.jpg)
+
+- I have used flexbox for this project making it better to add media queries. Below are a few exemples.
+
+  ![logo navbar](assets\images\screenshots\4_flexbox.jpg)
+
+- Media queries have been added to the bottom of the css file. The breakpoints are: 950px, 768px and 575px.
+
+  ![media queries breakpoints](assets\images\screenshots\5_mediaqueries.jpg)
 
 ## Built With
 
