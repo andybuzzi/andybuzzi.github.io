@@ -16,7 +16,7 @@
 
 /* Body */
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
   background: #148d8d;
   font-size: 16px;
   color: var(--black);
@@ -88,17 +88,18 @@ nav ul li a:hover {
 .hero {
   display: flex;
   justify-content: space-evenly;
-  height: 400px;
-  background: var(--white);
+  height: 500px;
+  background: #144661;
 }
 
 .hero-heading {
-  margin: 35px 0 20px 30px;
+  align-self: center;
 }
 
 .hero-heading p,
 .hero-heading h1 {
-  color: #148d8d;
+  font-family: "Montserrat", sans-serif;
+  color: #17d8d8;
   font-size: 35px;
   padding: 5px 0 5px 30px;
   font-weight: bold;
@@ -106,35 +107,22 @@ nav ul li a:hover {
 }
 
 .hero-heading h1 {
-  font-size: 70px;
-  color: #062f2f;
-  text-shadow: 2px 2px 5px var(--medium-blue);
-}
-
-.portfolio-picture {
-  display: flex;
-  margin-top: 50px;
-  /* position: relative; */
-}
-
-.portfolio-picture img {
-  background-size: cover;
-  height: 300px;
-  width: 300px;
-  align-self: flex-end;
+  /* font-family: "Cormorant Garamond", serif; */
+  font-size: 85px;
+  text-shadow: 2px 2px 5px #17d8d8;
 }
 
 /* About Me Section */
 
+.about-flex {
+  display: flex;
+  border-top: 10px solid var(--medium-blue);
+}
 .about-me {
-  background: linear-gradient(
-      -70deg,
-      var(--dark-blue) 30%,
-      rgba(0, 0, 0, 0) 30%
-    ),
-    #cafafe;
+  background: var(--medium-blue);
   line-height: 1.7;
   padding: 75px;
+  flex: 2;
 }
 
 .about-me p {
@@ -164,6 +152,27 @@ nav ul li a:hover {
   box-shadow: 0 0 10px rgba(3, 0, 86, 0.8);
   outline: none;
   padding: 10px;
+}
+
+.personal-picture {
+  background: linear-gradient(-42deg, #148d8d 50%, rgba(0, 0, 0, 0) 30%),
+    var(--medium-blue);
+  /* display: flex; */
+  flex: 1;
+  /* margin-top: 50px; */
+  /* position: relative; */
+  align-content: flex-end;
+}
+
+.personal-picture img {
+  background-size: cover;
+  height: 525px;
+  width: auto;
+  align-self: flex-end;
+}
+
+.personal-picture div {
+  display: flex;
 }
 
 /* Work Section*/
