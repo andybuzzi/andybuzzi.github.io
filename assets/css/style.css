@@ -48,10 +48,6 @@ header {
   background: rgba(0, 0, 0, 85%);
 }
 
-/* header nav {
-  display: flex;
-} */
-
 nav ul {
   display: flex;
   margin-top: 10px;
@@ -63,7 +59,6 @@ nav ul li {
 }
 
 nav ul li a {
-  /* align-self: center; */
   text-decoration: none;
   color: var(--white);
   padding: 30px;
@@ -101,7 +96,6 @@ nav ul li a:hover {
 }
 
 .hero-heading h1 {
-  /* font-family: "Cormorant Garamond", serif; */
   font-size: 85px;
   text-shadow: 1px 1px 9px var(--light-blue);
 }
@@ -137,11 +131,14 @@ nav ul li a:hover {
 .facts {
   margin: 20px auto;
   background: var(--light-green);
-  /* width: 900px; */
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(3, 0, 86, 0.8);
   outline: none;
   padding: 10px;
+}
+
+.mediaquery {
+  visibility: hidden;
 }
 
 .personal-picture {
@@ -151,7 +148,6 @@ nav ul li a:hover {
       rgba(0, 0, 0, 0) 30%
     ),
     var(--medium-blue);
-  /* align-content: flex-end; */
 }
 
 .personal-picture div {
@@ -159,10 +155,7 @@ nav ul li a:hover {
 }
 
 .personal-picture img {
-  /* background-size: cover; */
   height: 525px;
-  /* width: auto; */
-  /* align-self: flex-end; */
 }
 
 /* Work Section*/
@@ -193,7 +186,6 @@ nav ul li a:hover {
 }
 
 .work-item h3 {
-  /* text-align: center; */
   padding: 10px;
   color: var(--white);
   background: var(--darkest-blue);
@@ -209,9 +201,7 @@ nav ul li a:hover {
 }
 
 .work-img img {
-  /* background-size: cover; */
   object-fit: contain;
-  /* width: 300px; */
   height: 200px;
   border-radius: 20px;
   opacity: 0.8;
@@ -229,7 +219,6 @@ nav ul li a:hover {
 
 /* Contact me */
 .contact-me {
-  /* background-color: var(--light-green); */
   padding: 15px;
 }
 
@@ -269,5 +258,156 @@ nav ul li a:hover {
   padding: 0 15px 15px 15px;
   text-align: center;
   color: var(--white);
-  /* font-size: 20px; */
+}
+
+/* MEDIA QUERY MAX-WIDTH 950px*/
+
+@media screen and (max-width: 950px) {
+  body {
+    font-size: 16px;
+  }
+
+  /* Media Query: Hero/Jumbotron */
+  .hero-heading p {
+    font-size: 25px;
+  }
+
+  .hero-heading h1 {
+    font-size: 65px;
+  }
+
+  .personal-picture {
+    background: linear-gradient(
+        -63deg,
+        var(--light-green) 50%,
+        rgba(0, 0, 0, 0) 30%
+      ),
+      var(--medium-blue);
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .personal-picture img {
+    height: 350px;
+  }
+
+  .flex-container-1,
+  .flex-container-2 {
+    flex-direction: column;
+  }
+}
+
+/* MEDIA QUERY MAX-WIDTH 768px*/
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  .section-heading h2 {
+    font-size: 18px;
+  }
+
+  nav ul {
+    margin-top: 5px;
+  }
+
+  nav ul li a {
+    padding: 30px 10px;
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  .hero-heading h1 {
+    font-size: 50px;
+  }
+
+  .about-me {
+    line-height: 1.5;
+    padding: 10px;
+  }
+
+  .about-me p {
+    padding: 5px;
+  }
+
+  .about-me ul {
+    margin: 5px 5px;
+  }
+
+  .personal-picture img {
+    height: 200x;
+  }
+  .work-item h3 {
+    font-size: 16px;
+  }
+
+  .work-img img {
+    height: 150px;
+  }
+
+  .contact-me a {
+    text-align: center;
+  }
+}
+
+/* MEDIA QUERY MAX-WIDTH 575px*/
+
+@media screen and (max-width: 575px) {
+  header nav {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    justify-content: center;
+  }
+
+  nav ul li a {
+    width: 50%;
+    padding: 20px;
+    font-size: 15px;
+  }
+
+  .logo {
+    margin-top: 15px;
+  }
+
+  nav ul li a:hover {
+    color: var(--light-blue);
+    background-color: var(--light-green);
+    border-radius: 0px;
+  }
+
+  nav ul li:hover {
+    color: var(--light-blue);
+    background-color: var(--light-green);
+  }
+
+  .hero-heading p {
+    font-size: 20px;
+  }
+
+  .hero-heading h1 {
+    font-size: 35px;
+  }
+
+  .about-flex {
+    flex-direction: column;
+  }
+
+  .mediaquery {
+    visibility: visible;
+  }
+
+  .work-item h3 {
+    font-size: 14px;
+  }
+
+  .contact-me section {
+    margin: 0 5px;
+  }
 }
