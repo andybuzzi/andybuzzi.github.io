@@ -18,7 +18,7 @@
 body {
   font-family: "Work Sans", sans-serif;
   background: #148d8d;
-  font-size: 16px;
+  font-size: 18px;
   color: var(--black);
 }
 
@@ -117,17 +117,17 @@ nav ul li a:hover {
 
 .about-flex {
   display: flex;
-  border-top: 10px solid var(--medium-blue);
 }
 .about-me {
   background: var(--medium-blue);
   line-height: 1.7;
-  padding: 75px;
+  padding: 25px;
   flex: 2;
 }
 
 .about-me p {
   text-align: center;
+  padding: 20px;
 }
 
 .about-me ul {
